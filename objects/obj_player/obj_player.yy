@@ -1,19 +1,18 @@
 {
-  "name": "obj_player",
   "spriteId": {
     "name": "spr_ship",
     "path": "sprites/spr_ship/spr_ship.yy",
   },
+  "solid": false,
+  "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "spr_ship_collision_mask",
     "path": "sprites/spr_ship_collision_mask/spr_ship_collision_mask.yy",
   },
-  "visible": true,
-  "solid": false,
   "persistent": false,
-  "physicsObject": false,
-  "managed": true,
   "parentObjectId": null,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -25,7 +24,12 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":37,"eventType":5,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":39,"eventType":5,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":38,"eventType":5,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -33,6 +37,7 @@
     "path": "folders/Objets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "obj_player",
   "tags": [],
   "resourceType": "GMObject",
 }

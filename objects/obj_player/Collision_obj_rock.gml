@@ -7,6 +7,6 @@ with(obj_game) {
 audio_play_sound(snd_explosion, 1, false)
 instance_destroy()
 
-repeat(10) {
-	instance_create_layer(x, y, "Instances", obj_debris)	
+with(other) {
+	instance_destroy()
 }

@@ -13,7 +13,7 @@ function Rock(_sprite) constructor {
 	
 	static Split = function(_x, _y, _obj_rock) {
 		repeat(2) {
-			var new_rock = instance_create_layer(_x, _y, "Instances", _obj_rock)
+			instance_create_layer(_x, _y, "Instances", _obj_rock)
 		}
 	}
 	
